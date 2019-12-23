@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    max-width: 1080px;
+    background-color: #bce0ff;
+    margin: 0 auto;
+}
+  
+body {
+    font: 16px Arial;
+}
+
+button{
+    background-color: DodgerBlue;
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+}
+
+
+
+#main{
+    width: 100%;
+    margin: 10px;
+}
+
+.margin-left10{
+    margin-left: 10px;
+}
+
+@media (min-width: 450px) {
+  
+    #main{
+        margin: 20px auto;
+        width: 90%
+    }
+
+}
+
+@media (min-width: 450px) {
+  
+    .filter_dashboard{
+        display: flex;
+    }
+
+}

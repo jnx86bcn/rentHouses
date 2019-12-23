@@ -1,0 +1,49 @@
+.spinner {
+  position: absolute;
+  width: 94%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 99;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .eye {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    box-shadow: 30px 0px 0px 0px rgba(255, 255, 255, 0.8);
+    position: relative;
+    margin: 36px 26px;
+  }
+
+  .eye:after {
+    background-color: #000000;
+    width: 10px;
+    height: 10px;
+    box-shadow: 30px 0px 0px 0px #000000;
+    border-radius: 50%;
+    left: 9px;
+    top: 8px;
+    position: absolute;
+    content: "";
+    -webkit-animation: eyeball 2s linear infinite alternate;
+  }
+}
+
+@-webkit-keyframes eyeball {
+  0% {
+    left: 9px;
+  }
+  100% {
+    left: 1px;
+  }
+}
+
+@media (min-width: 450px) {
+  .spinner {
+    width: 83%;
+    max-width: 894px;
+  }
+}

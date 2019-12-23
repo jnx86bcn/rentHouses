@@ -1,0 +1,47 @@
+[
+    {
+        "City": "Barcelona",
+        "Price": 300000,
+        "Name": "Piso centrico con vista al mar",
+        "SQM": 50,
+        "Rooms": 2,
+        "Bathrooms": 1,
+        "UrlPhoto": "http://media.graytvinc.com/images/wcjb_apartment-living-room.jpg"
+    },
+    {
+        "City": "Madrid",
+        "Price": 300000,
+        "Name": "Piso feo",
+        "SQM": 100,
+        "Rooms": 4,
+        "Bathrooms": 2,
+        "UrlPhoto": "https://resources.kamernet.nl/image/198b48bf-ec3b-4d93-82b8-4160ffb01133"
+    },
+    {
+        "City": "Madrid",
+        "Price": 300000,
+        "Name": "Piso feo",
+        "SQM": 40,
+        "Rooms": 4,
+        "Bathrooms": 2,
+        "UrlPhoto": "https://resources.kamernet.nl/image/198b48bf-ec3b-4d93-82b8-4160ffb01133"
+    },
+    {
+        "City": "Sevilla",
+        "Price": 80000,
+        "Name": "Piso en el casco antigüo con ático",
+        "SQM": 50,
+        "Rooms": 4,
+        "Bathrooms": 2,
+        "UrlPhoto": "https://resources.kamernet.nl/image/198b48bf-ec3b-4d93-82b8-4160ffb01133"
+    },
+    {
+        "City": "Madrid",
+        "Price": 150000,
+        "Name": "Nuevo a estrenar en zona centro",
+        "SQM": 50,
+        "Rooms": 4,
+        "Bathrooms": 2,
+        "UrlPhoto": "http://media.graytvinc.com/images/wcjb_apartment-living-room.jpg"
+    }
+]
